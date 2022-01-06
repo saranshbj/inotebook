@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import NoteContext from './noteContext'
+import NoteContext from './NoteContext'
 
 const NoteState = (props)=>{
     const notesInitial = [
@@ -65,7 +65,7 @@ const NoteState = (props)=>{
           "tag": "personal",
           "date": "2021-09-03T14:20:09.668Z",
           "__v": 0
-        },
+        }
     ]
     const [notes, setNotes] = useState(notesInitial)
 
